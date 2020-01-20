@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model LuckySpin.Models.Spin
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,11 +7,10 @@
     <link rel="stylesheet" href="/luckyStyles.css">
 </head>
 <body>
-    @model LuckySpin.Models.Spin
+   
     <button onclick='history.go(0)'>Spin</button>
-    <div>@Model.a</div><div>@Model.b</div><div>@Model.c</div>
+   <div>@Model.a</div><div>@Model.b</div><div>@Model.c</div>
     <h1> Lucky @Model.luck </h1>
     <img src="/Images/LuckySpinCoins.jpg" alt="Coins" style="display:@Model.ImgDisplay" />
 </body>
 </html>
-    

@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace LuckySpin.Models
 {
-    public class Spin 
+    public class Spin
     {
-        public int a;
-        public int b;
-        public int c;
-        public string ImgDisply;
-        public int luck;
+        public int a { get; set; }
+        public int b { get; set; }
+        public int c { get; set; }
+        public string ImgDisplay { get; set;}
+        public int luck { get; set; }
     }
 }

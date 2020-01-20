@@ -8,7 +8,7 @@ namespace LuckySpin.Controllers
         Random random = new Random();
 
         //The Conroller to receive the Luck number from the Route
-        public IActionResult Index(int luck = 7) //Default value for luck is 7
+        public IActionResult Index(int luck = 7 ) //Default value for luck is 7
 
 
         {
@@ -19,7 +19,7 @@ namespace LuckySpin.Controllers
 
             
             // Load up the ViewBag for use by the Spinner View "Index.cshtml"
-           // ViewBag.ImgDisplay = (a == luck || b == luck || c == luck)?"block":"none";
+          //ViewBag.ImgDisplay = (a == luck || b == luck || c == luck)?"block":"none";
            // ViewBag.A = a;
            //ViewBag.B = b;
            // ViewBag.C = c;
